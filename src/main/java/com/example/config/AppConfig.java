@@ -52,7 +52,7 @@ public class AppConfig {
 	@Bean 
 	public PeopleRestService peopleRestService() {
 		PeopleRestService p = new PeopleRestService();
-		p.addPerson(uriInfo,"as.saint-omer@etudiant.univ-lille1.fr", "SAINT-OMER", "Anne-Sophie");
+		//p.addPerson(uriInfo,"as.saint-omer@etudiant.univ-lille1.fr", "SAINT-OMER", "Anne-Sophie");
 		return new PeopleRestService();
 	}
 	
